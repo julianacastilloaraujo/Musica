@@ -12,6 +12,10 @@
         android:layout_height="wrap_content"
         android:text="Esto es salsa"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="223dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
 </androidx.constraintlayout.widget.ConstraintLayout>
