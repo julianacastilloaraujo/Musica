@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/rosita"
     tools:context=".Vallenato">
 
     <Button
@@ -36,7 +37,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Esto es vallenato"
+        android:text="@string/Vallenato"
+        android:textColor="@color/blanco"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,4 +46,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="217dp"
+        android:layout_height="207dp"
+        android:background="@drawable/imagen3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
 </androidx.constraintlayout.widget.ConstraintLayout>
