@@ -14,7 +14,7 @@ class Merengue : AppCompatActivity() {
         var stop=findViewById<Button>(R.id.stop)
         var mp=MediaPlayer()
         play.setOnClickListener {
-            mp.setDataSource(this, Uri.parse("android.resource://"+this.packageName+"/"+R.raw.pista1))
+            mp.setDataSource(this, Uri.parse("android.resource://"+this.packageName+"/"+R.raw.pista))
             mp.prepare()
             mp.start()
         }
