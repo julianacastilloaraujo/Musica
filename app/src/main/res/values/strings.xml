@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Musica</string>
     <string name="Inicio">Reproductor de Musica</string>
+    <string name="Mi_Nombre">Juliana Castillo Araujo</string>
     <string name="Merengue">Esta es una cancion de merengue</string>
     <string name="Salsa">Esta es una cancion de salsa</string>
     <string name="Vallenato">Esta es una cancion de vallenato</string>
